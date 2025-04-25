@@ -106,7 +106,7 @@
     }
     
     .description:last-of-type {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
     
     .input-group {
@@ -114,7 +114,7 @@
       flex-direction: column;
       align-items: center;
       gap: 1rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
     
     @media (min-width: 768px) {
@@ -324,6 +324,17 @@
       .logo {
         height: 50px;
       }
+
+      .footer-tagline {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;       /* usa un Montserrat seminegrita */
+        letter-spacing: 0.05em;  /* un poco de espacio entre letras */
+        margin: 0;               /* elimina márgenes extra */
+        font-size: 0.9rem;       /* ajústalo a tu gusto */
+        color: #777;             /* mismo color que tenías en .footer p */
+      }
+      
     }
   </style>
 </head>
@@ -333,8 +344,8 @@
     <div class="decoration decoration-2"></div>
     
     <div class="header">
-      <img src="/public/images/logo-hakuna.png" alt="Logo Fundación Behakuna" class="logo">
-      <h1>Reza por un Cardenal</h1>
+      <img src="/public/images/tu-fecha-su-fuego.png" alt="Logo Tu Fecha Su Fuego" class="logo" style="width: 300px; height: auto;">
+      <!-- <h1>Reza por un Cardenal</h1> -->
     </div>
     
     <p class="description">Queremos proponer una forma sencilla de unirnos a este momento: rezar por un cardenal elector. <b>Que cada uno de nosotros acompañe con su oración a uno de los cardenales</b> que, en estos días, se reunirán en la Capilla Sixtina para discernir al sucesor de Pedro.</p>
@@ -413,7 +424,8 @@
     </div>
     
     <div class="footer">
-      <p>Unidos en oración por los líderes de nuestra Iglesia</p>
+      <img src="/public/images/logo-hakuna.png" alt="Logo Fundación Behakuna" class="logo">
+      <p class="footer-tagline">UNO X UNO | TODOS X TODOS</p>
     </div>
   </div>
 
