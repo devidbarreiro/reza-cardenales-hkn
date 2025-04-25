@@ -31,7 +31,7 @@ const cardinals = [
     { start: '25-03', end: '27-03', name: 'Cardenal Odilo Pedro Scherer', image: 'public/images/Cardenal Odilo Pedro Scherer.jpeg' },
     { start: '28-03', end: '30-03', name: 'Cardenal Leonardo Sandri', image: 'public/images/cardenal-leonardo-sandri.jpg' },
     { start: '31-03', end: '02-04', name: 'Cardenal Mauro Gambetti', image: 'public/images/Cardenal Mauro Gambetti.jpeg' },
-    { start: '03-04', end: '05-04', name: 'Cardenal Patrick D\'Rozario', image: 'public/images/Cardenal Patrick De virRozario.jpeg' },
+    { start: '03-04', end: '05-04', name: 'Cardenal Patrick D\'Rozario', image: 'public/images/Cardenal Patrick De Rozario.jpeg' },
     { start: '06-04', end: '08-04', name: 'Cardenal Jean-Marc Aveline', image: 'public/images/Cardenal Jean-Marc Aveline.jpeg' },
     { start: '09-04', end: '11-04', name: 'Cardenal Pierbattista Pizzaballa', image: 'public/images/Cardenal Pierbattista Pizzaballa.jpeg' },
     { start: '12-04', end: '14-04', name: 'Cardenal Baltazar Porras', image: 'public/images/Cardenal Baltazar Porras.jpeg' },
